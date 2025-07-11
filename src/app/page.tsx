@@ -24,6 +24,7 @@ export default function Home() {
               alt="Hero Image"
               fill
               className="heroImage"
+              priority
             />
           </div>
         </div>
@@ -49,6 +50,7 @@ export default function Home() {
                   alt="Summer Collection"
                   fill
                   className="collectionImage"
+                  priority
                 />
               </div>
               <div className="imageOverlay"></div>
@@ -66,6 +68,7 @@ export default function Home() {
                   alt="Summer Collection"
                   fill
                   className="collectionImage"
+                  priority
                 />
               </div>
               <div className="imageOverlay"></div>
@@ -84,6 +87,7 @@ export default function Home() {
                   alt="Summer Collection"
                   fill
                   className="collectionImage"
+                  priority
                 />
               </div>
               <div className="imageOverlay"></div>
@@ -116,6 +120,7 @@ export default function Home() {
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImageRight"
+                    priority
                   />
                 </div>
                 <div className="featuredItemText">
@@ -132,6 +137,7 @@ export default function Home() {
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImageLeft"
+                    priority
                   />
                 </div>
                 <div className="featuredItemText">
@@ -148,6 +154,7 @@ export default function Home() {
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImage"
+                    priority
                   />
                 </div>
                 <div className="featuredItemText">
@@ -165,6 +172,7 @@ export default function Home() {
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImage"
+                    priority
                   />
                 </div>
                 <div className="featuredItemText">
@@ -186,6 +194,7 @@ export default function Home() {
                   alt="Featured Item 1"
                   fill
                   className="newsletterImage"
+                  priority
                 />
             </div>
             <div className="newsletterContent">
