@@ -47,6 +47,3 @@ h4 {
   font-weight: 200;
   font-size: clamp(19px, 2.4vw, 37px);
 }
-a {
-  text-decoration: underline;
-}

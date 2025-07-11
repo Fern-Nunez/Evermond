@@ -13,6 +13,7 @@ export default function Disclaimer() {
                 alt="Disclaimer Banner Image"
                 fill
                 className="disclaimerBanner"
+                priority
             />
         </div>
         <div className="disclaimerContent">
