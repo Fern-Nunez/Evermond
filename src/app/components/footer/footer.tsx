@@ -1,6 +1,7 @@
 // components/Footer.tsx
 import "./footer.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -28,7 +29,7 @@ export default function Footer() {
             <p className="footerHeadingNav">Navigation:</p>
             <div className="footerNavLinks">
               <div>
-                <a href="/" className="directLinkFooter"><p className="navLink">Home</p></a>
+                <Link href="/" className="directLinkFooter"><p className="navLink">Home</p></Link>
                 <a href="/disclaimer" className="directLinkFooter"><p className="navLink">Gallery</p></a>
                 <a href="/disclaimer" className="directLinkFooter"><p className="navLink">Terms of Service</p></a>
               </div>

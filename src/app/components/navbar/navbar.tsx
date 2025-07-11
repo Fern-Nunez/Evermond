@@ -78,7 +78,7 @@ export default function Navbar({ variant }: NavbarProps) {
 
         {/* Desktop Menu */}
         <div className="navbarDesktopMenu">
-            <a href="/" className="directLink"><div className="navbarDesktopLink"><p>Home</p></div></a>
+            <Link href="/" className="directLink"><div className="navbarDesktopLink"><p>Home</p></div></Link>
             <a href={"/disclaimer"} className="directLink"><div className="navbarDesktopLink"><p>Gallery</p></div></a>
             <a href={"/disclaimer"} className="directLink"><div className="navbarDesktopLink"><p>Shop</p></div></a>
             <a href={"/disclaimer"} className="directLink"><div className="navbarDesktopLink"><p>Careers</p></div></a>
@@ -87,7 +87,7 @@ export default function Navbar({ variant }: NavbarProps) {
 
       {/* Mobile Menu */}
       <div className={`navbarMobileMenuOpen ${isMenuOpen ? "open" : ""}`}>
-        <a href="/" className="directLink"><div className="navbarMobileLink"><p>Home<span className="arrow">→</span></p></div></a>
+        <Link href="/" className="directLink"><div className="navbarMobileLink"><p>Home<span className="arrow">→</span></p></div></Link>
         <a href={"/disclaimer"} className="directLink"><div className="navbarMobileLink"><p>Gallery<span className="arrow">→</span></p></div></a>
         <a href={"/disclaimer"} className="directLink"><div className="navbarMobileLink"><p>Shop<span className="arrow">→</span></p></div></a>
         <a href={"/disclaimer"} className="directLink"><div className="navbarMobileLink"><p>Careers<span className="arrow">→</span></p></div></a>
