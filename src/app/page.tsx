@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div className="heroImageContainer">
             <Image
-              src="/home/heroImage.jpg"
+              src="/home/heroImage.webp"
               alt="Hero Image"
               fill
               className="heroImage"
@@ -45,7 +45,7 @@ export default function Home() {
             <div className="collectionSection">
               <div className="collectionImageContainer">
                 <Image
-                  src="/home/winterCollectionImage.jpg"
+                  src="/home/winterCollectionImage.webp"
                   alt="Summer Collection"
                   fill
                   className="collectionImage"
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="collectionSection">
               <div className="collectionImageContainer">
                 <Image
-                  src="/home/springCollectionImage.jpg"
+                  src="/home/springCollectionImage.webp"
                   alt="Summer Collection"
                   fill
                   className="collectionImage"
@@ -80,7 +80,7 @@ export default function Home() {
             <div className="collectionSection">
               <div className="collectionImageContainer">
                 <Image
-                  src="/home/summerCollectionImage.jpg"
+                  src="/home/summerCollectionImage.webp"
                   alt="Summer Collection"
                   fill
                   className="collectionImage"
@@ -112,7 +112,7 @@ export default function Home() {
               <div className="featuredItem">
                 <div className="featuredItemImageContainer">
                   <Image
-                    src="/home/pinkJacket.jpg"
+                    src="/home/pinkJacket.webp"
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImageRight"
@@ -128,7 +128,7 @@ export default function Home() {
               <div className="featuredItem">
                 <div className="featuredItemImageContainer">
                   <Image
-                    src="/home/polkaDotBlouse.jpg"
+                    src="/home/polkaDotBlouse.webp"
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImageLeft"
@@ -144,7 +144,7 @@ export default function Home() {
               <div className="featuredItem">
                 <div className="featuredItemImageContainer">
                   <Image
-                    src="/home/stripedShirt.jpg"
+                    src="/home/stripedShirt.webp"
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImage"
@@ -161,7 +161,7 @@ export default function Home() {
               <div className="featuredItem">
                 <div className="featuredItemImageContainer">
                   <Image
-                    src="/home/silkDress.jpg"
+                    src="/home/silkDress.webp"
                     alt="Featured Item 1"
                     fill
                     className="featuredItemImage"
@@ -182,7 +182,7 @@ export default function Home() {
         <div className="newsletterSection">
             <div className="newsletterImageContainer">
                 <Image
-                  src="/home/newsletterImage.jpg"
+                  src="/home/newsletterImage.webp"
                   alt="Featured Item 1"
                   fill
                   className="newsletterImage"

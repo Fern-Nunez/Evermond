@@ -9,7 +9,7 @@ export default function Disclaimer() {
       <div className="pageContainer">
         <div className="disclaimerBannerContainer">
             <Image
-                src="/home/disclaimerBanner.jpg"
+                src="/home/disclaimerBanner.webp"
                 alt="Disclaimer Banner Image"
                 fill
                 className="disclaimerBanner"
