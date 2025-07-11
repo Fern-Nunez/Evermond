@@ -1,0 +1,47 @@
+.pageContainer{
+    min-height: 100vh;
+    padding-bottom: clamp(4rem, 20vw, 15rem);
+}
+.disclaimerBannerContainer{
+    width: 100%;
+    height: clamp(325px, 30vw, 700px);
+    position: relative;
+}
+.disclaimerBanner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.disclaimerContent{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 4rem;
+    padding-top: clamp(1rem, 3vw, 3rem);
+}
+.disclaimerDescription{
+    padding-top: clamp(2rem, 3vw, 5rem);
+}
+.cursive{
+    font-family: var(--petit-formal-script);
+    font-weight: 400;
+    font-size: clamp(50px, 4.1vw, 90px);
+    color: #7E8F6D;
+}
+.linkToWebsite{
+    color: #4B7C8C;
+    cursor: pointer;
+    transition: ease-in-out 3s;
+}
+.linkToWebsite:hover{
+    color: #58badb;
+    text-decoration: underline;
+}
+
+@media (min-width: 1060px) {
+    .cursive{
+        padding-left: 20rem;
+    }
+    .disclaimerDescription{
+        padding-left: clamp(3rem, 7vw, 11rem);
+    }
+}

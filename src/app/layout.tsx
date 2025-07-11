@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Petit_Formal_Script, Plus_Jakarta_Sans } from "next/font/google";
+import Footer from "./components/footer/footer";
+import Navbar from "./components/navbar/navbar";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const petitFormalScript = Petit_Formal_Script({
+  weight: "400", // required for this font
   subsets: ["latin"],
+  variable: "--petit-formal-script",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  weight: ["200", "300", "400"], // choose weights you need
   subsets: ["latin"],
+  variable: "--plus-jakarta-sans",
 });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,8 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${plusJakartaSans.variable} ${petitFormalScript.variable}`}>
+        <Navbar/>
         {children}
+        <Footer />
       </body>
     </html>
   );
